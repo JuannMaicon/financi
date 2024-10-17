@@ -26,7 +26,7 @@ export default function pagina1(){
         enabled
       >
         <Logo
-          source={require('../../assets/Logo.png')}
+          source={require('../../imagens/Logo1.png')}
         />
 
         <AreaInput>
@@ -45,7 +45,7 @@ export default function pagina1(){
           <SubmitText>Acessar</SubmitText>
         </SubmitButton>
 
-        <Link onPress={ () => navigation.navigate('SignUp') }>
+        <Link onPress={ () => navigation.navigate('pagina2') }>
           <LinkText>Criar uma conta!</LinkText>
         </Link>
 
